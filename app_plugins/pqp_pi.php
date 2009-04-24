@@ -47,7 +47,7 @@ class pqp_pi
     }
 
     /**
-     * Generate the query results for the PQP Profler
+     * Generate the query results for the PQP Profiler
      *
      * @return object
      * @author Dan Morin
@@ -98,7 +98,7 @@ class pqp_pi
     }
 
     /**
-     * Add in any Benchmark Results to the pqp profiler
+     * Add in any Benchmark Results to the PQP Profiler
      *
      * @return void
      * @author Dan Morin
