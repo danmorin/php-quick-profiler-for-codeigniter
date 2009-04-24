@@ -1,0 +1,14 @@
+So the amazing guys at Particletree built this awesome php profiler and I 
+thought I would share my mods of integrating it into CI.  My code is a bit
+messy/hacky but you should get the idea.  Start by checking out the 
+Particletree blog post at http://particletree.com/features/php-quick-profiler/.
+Reading through that will give you an idea of what the profiler can accomplish 
+and how to log to its console.
+
+Both the original and my code is released under Creative Commons Attribution 
+3.0 License.
+
+INSTALL:
+Get the current version from: 
+http://github.com/danmorin/php-quick-profiler-for-codeigniter/tree/master
+
