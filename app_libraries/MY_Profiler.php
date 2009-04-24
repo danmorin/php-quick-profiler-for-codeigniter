@@ -18,7 +18,7 @@ class MY_Profiler extends CI_Profiler {
 	function run()
 	{
 	    $output = '';
-		if (isset(pqp_pi::$pqp_instance)) 
+		if (class_exists('pqp_pi') && isset(pqp_pi::$pqp_instance)) 
 		{
 		    pqp_pi::pqp_benchmark_results();
 		    $output .= pqp_pi::$pqp_instance->display(pqp_pi::gen_pqp_db_results());
