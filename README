@@ -1,5 +1,5 @@
 So the amazing guys at Particletree built this awesome php profiler and I 
-thought I would share my mods of integrating it into CI.  My code is a bit
+thought I would share my mods of integrating it into CI.  My code is a bit of a
 hack job but you should get the idea.  Start by checking out the 
 Particletree blog post at http://particletree.com/features/php-quick-profiler/.
 Reading through that will give you an idea of what the profiler can accomplish 
