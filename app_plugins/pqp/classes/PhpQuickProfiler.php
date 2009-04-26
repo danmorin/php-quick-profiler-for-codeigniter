@@ -63,7 +63,11 @@ class PhpQuickProfiler {
 		);
 
 		foreach($files as $key => $file) {
-			$size = filesize($file);
+			if (file_exists($file)) {
+			    $size = filesize($file);
+			} else {
+			    $size = 0;
+			}
 			$fileList[] = array(
 					'name' => $file,
 					'size' => $this->getReadableFileSize($size)
