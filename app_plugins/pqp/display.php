@@ -31,6 +31,10 @@ echo <<<JAVASCRIPT
 	addEvent(window, 'load', loadCSS);
 
 	function changeTab(tab) {
+		if ( ! PQP_DETAILS) {
+		    toggleDetails();
+	    }
+		
 		var pQp = document.getElementById('pQp');
 		hideAllTabs();
 		addClassName(pQp, tab, true);
