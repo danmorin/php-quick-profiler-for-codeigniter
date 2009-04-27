@@ -9,7 +9,7 @@
  **/
 function pqp_static($method)
 {
-    call_user_func('pqp_pi::'.$method);
+    call_user_func(array('pqp_pi',$method));
 }
 
 /**
