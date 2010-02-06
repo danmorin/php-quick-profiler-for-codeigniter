@@ -65,11 +65,11 @@ class pqp_pi
     	if (isset($CI->write_db)) {
     	    unset($CI->write_db);
     	}
-	
+
     	// Let's determine which databases are currently connected to
     	foreach (get_object_vars($CI) as $CI_object)
     	{
-    		if ( is_subclass_of(get_class($CI_object), 'CI_DB') )
+    		if (is_object($CI_object) && is_subclass_of(get_class($CI_object), 'CI_DB'))
     		{
     			$dbs[] = $CI_object;
     		}
