@@ -15,11 +15,10 @@ Both the original and my code is released under Creative Commons Attribution
 2. Copy the files from the download to the corresponding directories in your  
    application directory. Make sure you don't overwrite any of your own files  
    if you've customized them. You may need to create the plugins directory  
-   under application
-
-   config      => system/application/config  
-   libraries   => system/application/libraries  
-   plugins     => system/application/plugins
+   under application.  
+   > config      => system/application/config  
+   > libraries   => system/application/libraries  
+   > plugins     => system/application/plugins
 
 3. Once that's done, anywhere you enable the profiler using  
    `$this->output->enable_profiler(TRUE)`, you should see the new profiler
