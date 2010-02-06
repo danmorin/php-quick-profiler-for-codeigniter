@@ -130,3 +130,6 @@ class pqp_pi
     	Console::log('POST: '.print_r($_POST, TRUE));
     }
 }
+
+/* End of file pqp_pi.php */
+/* Location: ./system/application/plugins/pqp_pi.php */
